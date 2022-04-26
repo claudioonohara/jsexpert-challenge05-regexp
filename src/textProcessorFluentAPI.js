@@ -10,7 +10,7 @@ class TextProcessorFluentAPI {
     }
 
     extractProjectData() {
-        const matchProject = evaluateRegex(/(^Projeto[^;]*);([^;]*);([^;]*);([^;]*);([^;]*);([^;]*)/gmi)
+        const matchProject = evaluateRegex(/(^Projeto[^;]*);([^;]*);([^;]*);([^;]*);([^;]*);([^;|\n]*)/gmi)
         const onlyProject = this.#content.match(matchProject)
         this.#content = onlyProject
         return this       
