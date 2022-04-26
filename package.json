@@ -1,6 +1,6 @@
 {
   "name": "challenge05-regexp",
-  "author": "Wellington S. Almeida (WellsSA)",
+  "author": "Claudio Toyoshi Onohara",
   "version": "1.0.0",
   "description": "This is the official repository of the 5th EW.IT code challenge. Which is a Facade/Fluent API based application to extract useful information from governmental csv files using regexps.",
   "main": "index.js",
